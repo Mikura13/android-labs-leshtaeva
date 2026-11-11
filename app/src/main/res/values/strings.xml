@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="fio">Лештаева Софья Валентиновна, гр. БОМ41ПРИ</string>
+    <string name="text1">TEXTVIEW 1</string>
+    <string name="text2">TEXTVIEW 2</string>
+    <string name="text3">TEXTVIEW 3</string>
+    <string name="text4">TEXTVIEW 4</string>
+</resources>
