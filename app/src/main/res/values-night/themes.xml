@@ -1,7 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Lab4" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="Theme.Lab4" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/dark_background</item>
+        <item name="android:textColor">@color/dark_text</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textViewStyle">@style/style1</item>
+        <item name="android:textColorPrimary">@color/dark_text</item>
+        <item name="android:textColorSecondary">@color/dark_text</item>
     </style>
 </resources>
