@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab6</string>
+    <string name="fio">Лештаева Софья Валентиновна, гр. БОМ41ПРИ</string>
+    <string name="button_text">BUTTON</string>
+</resources>
