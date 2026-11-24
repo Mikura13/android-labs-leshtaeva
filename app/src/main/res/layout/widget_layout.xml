@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/widget_background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/widgetTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Мой виджет"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/widget_title_color" />
+
+    <TextView
+        android:id="@+id/widgetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Нажмите, чтобы обновить"
+        android:textSize="14sp"
+        android:textColor="@color/widget_text_color"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/widgetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Обновить"
+        android:textColor="@color/widget_button_text_color"
+        android:backgroundTint="@color/widget_button_color"
+        android:layout_marginTop="12dp" />
+</LinearLayout>
